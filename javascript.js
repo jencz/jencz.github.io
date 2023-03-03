@@ -3,7 +3,7 @@ function validate()
     let password = document.getElementById('password').value;
     if (password == "12345")
     {
-        window.open("./button-clicker.html");
+        window.open("https://jencz.github.io/button-clicker");
         return false;
     }
     else
