@@ -1,0 +1,60 @@
+html {
+    overflow-y: hidden;
+    background: linear-gradient(225deg, #170011ff, #351B17ff, #46251Cff, #3E1714ff, #100107ff);
+}
+
+body {
+    margin: 0;
+    background: radial-gradient(circle, rgba(20,20,23,1) 0%, rgba(138,133,138,1) 100%); 
+    background-image: url(https://i.imgflip.com/4s4h4l.png?a465864);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1 {
+    background-image: linear-gradient(90deg, rgba(132,131,153,1) 0%, rgba(39,39,40,1) 35%, rgba(149,151,152,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.center-button {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.click-button {
+    max-width: 80px;
+    max-height: 80px;
+    padding: 80px 80px;   
+    border-radius: 12px;
+    border: 2px solid black;  
+    font-size: 30px;
+    font-weight: bold;
+    background: none;
+    background-image: linear-gradient(90deg, rgba(132,131,153,1) 0%, rgba(39,39,40,1) 35%, rgba(149,151,152,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.click-button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.reset-button {
+   background: none;
+   font-weight: bold;
+   border: 2px solid black;
+   border-radius: 5px;
+   background-image: linear-gradient(90deg, rgba(132,131,153,1) 0%, rgba(39,39,40,1) 35%, rgba(149,151,152,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}

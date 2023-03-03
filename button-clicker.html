@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <title>Click the Button!</title>
+    <link href="./style.css" rel="stylesheet">
+    <script>
+        let counter = 0;
+        let msg;
+        function upCount()
+        {      
+                counter++;
+                document.getElementById("number").innerHTML = counter;                               
+        }
+        function resetCount()
+        {
+            counter = 0;
+            document.getElementById("number").innerHTML = counter; 
+        }     
+    </script>
+</head>
+
+<body>   
+    <div class="center-button">
+     <h1>CLICK!</h1>
+     <button class="click-button" onclick="upCount();"><span id="number">0</span></button>  
+     <button class="reset-button" onclick="resetCount();"><span id="reset">RESET?</span></button>
+    </div>    
+</body>
+</html>
