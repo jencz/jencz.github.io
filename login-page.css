@@ -49,7 +49,6 @@ h2 {
 input:focus ~ label,
 input:valid ~ label {
     top: -5px;
-
 }
 .inputbox input {
     width: 100%;
@@ -68,24 +67,6 @@ input:valid ~ label {
     font-size: 1.2em;
     top: 20px;
 }
-.forget {
-    margin: -15px 0 15px;
-    font-size: .9em;
-    color: white;
-    display: flex;
-    justify-content: center;
-}
-.forget label input {
-    margin-right: 3px;
-}
-.forget label a {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-}
-.forget label a:hover {
-    text-decoration: underline;
-}
 button {
     width: 100%;
     height: 40px;
@@ -97,19 +78,19 @@ button {
     font-size: 1em;
     font-weight: 600;
 }
-.register {
+.help {
     font-size: .9em;
     color: white;
     text-align: center;
     margin: 25px 0 10px;
 }
-.register p a {
+.help p a {
     text-decoration: none;
     color: white;
     font-weight: 600;
     cursor: pointer;
 }
-.register p a:hover {
+.help p a:hover {
     text-decoration: underline;
 
 }
