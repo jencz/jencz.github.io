@@ -246,15 +246,16 @@ main {
 #hobbies-ul {
     padding-left: 0.5em;
     margin-left: 0.5em;
+    list-style:disc;
 }
 
 #hobbies-section {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;;
+    align-items: flex-end;
 }
 
-#wip-section {
+#languages-section {
     display: flex;
     flex-direction: column;
     align-items: flex-end;;
@@ -263,19 +264,31 @@ main {
 #education-ul {
     padding-left: 0.5em;
     margin-left: 0.5em;
+    list-style:disc;
 }
 
 #socials-ul {
     padding-left: 0.5em;
     margin-left: 0.5em;
+    list-style:disc;
 }
 
 #socials-ul li a {
     color: white;
 }
 
-#wip3-section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;;
+#languages-ul {
+    padding-left: 0.5em;
+    margin-left: 0.5em;
+    list-style:disc;
+}
+
+#credits-ul {
+    padding-left: 0.5em;
+    margin-left: 0.5em;
+    list-style:disc;
+}
+
+#credits-ul li a {
+    color: white;
 }
