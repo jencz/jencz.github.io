@@ -14,7 +14,7 @@ html {
 main {
     display: grid;
     justify-content: center;
-    margin-top: 5em;
+    margin-top: 2em;
     grid-template-columns: 30% 30% 30%;
 }
 
