@@ -17,47 +17,47 @@ leftPanelOuter.addEventListener('mouseleave', () => middlePanel.classList.remove
 rightPanelOuter.addEventListener('mouseenter', () => middlePanel.classList.add('rotate-right'));
 rightPanelOuter.addEventListener('mouseleave', () => middlePanel.classList.remove('rotate-right'));
 
-leftPanelOuter.addEventListener('click', (event) => {
-    if (event.target.tagName.toLowerCase() === 'a') {
-        return;
-    }
-    counter1++;
-    if (counter1 % 2 === 1) {
-        leftPanel.classList.add('hide');
-        leftPanelBack.classList.add('show');
-    }
-    else {
-        leftPanel.classList.remove('hide');
-        leftPanelBack.classList.remove('show');
-    }
-});
+// leftPanelOuter.addEventListener('click', (event) => {
+//     if (event.target.tagName.toLowerCase() === 'a') {
+//         return;
+//     }
+//     counter1++;
+//     if (counter1 % 2 === 1) {
+//         leftPanel.classList.add('hide');
+//         leftPanelBack.classList.add('show');
+//     }
+//     else {
+//         leftPanel.classList.remove('hide');
+//         leftPanelBack.classList.remove('show');
+//     }
+// });
 
-middlePanelOuter.addEventListener('click', (event) => {
-    if (event.target.tagName.toLowerCase() === 'a') {
-        return;
-    }
+// middlePanelOuter.addEventListener('click', (event) => {
+//     if (event.target.tagName.toLowerCase() === 'a') {
+//         return;
+//     }
 
-    counter2++;
-    if (counter2 % 2 === 1) {
-        middlePanel.classList.add('hide');
-        middlePanelBack.classList.add('show');
-    } else {
-        middlePanel.classList.remove('hide');
-        middlePanelBack.classList.remove('show');
-    }
-});
+//     counter2++;
+//     if (counter2 % 2 === 1) {
+//         middlePanel.classList.add('hide');
+//         middlePanelBack.classList.add('show');
+//     } else {
+//         middlePanel.classList.remove('hide');
+//         middlePanelBack.classList.remove('show');
+//     }
+// });
 
-rightPanelOuter.addEventListener('click', () => {
-    counter3++;
-    if (counter3 % 2 === 1) {
-        rightPanel.classList.add('hide');
-        rightPanelBack.classList.add('show');
-    }
-    else {
-        rightPanel.classList.remove('hide');
-        rightPanelBack.classList.remove('show');
-    }
-});
+// rightPanelOuter.addEventListener('click', () => {
+//     counter3++;
+//     if (counter3 % 2 === 1) {
+//         rightPanel.classList.add('hide');
+//         rightPanelBack.classList.add('show');
+//     }
+//     else {
+//         rightPanel.classList.remove('hide');
+//         rightPanelBack.classList.remove('show');
+//     }
+// });
 
 leftPanelOuter.addEventListener('mouseenter', () => middlePanelBack.classList.add('rotate-left'));
 leftPanelOuter.addEventListener('mouseleave', () => middlePanelBack.classList.remove('rotate-left'));

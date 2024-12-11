@@ -183,7 +183,6 @@ main {
     height: 47em;
     width: 90%;
     flex-direction: column;
-    margin-top: 2em;
 }
 
 #text-area-middle-front p {
@@ -292,3 +291,43 @@ main {
 #credits-ul li a {
     color: white;
 }
+
+#main-skills, #secondary-skills {
+    list-style: none;
+}
+
+#text-area-right-front ul {
+    padding-left: 0.5em;
+    margin-left: 0.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+#main-skills-uls, #secondary-skills-uls {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+#left-side-ul {
+    list-style: disc;
+}
+
+#right-side-ul {
+    list-style: none;
+}
+
+#right-side-ul li {
+    position: relative;
+    padding-right: 1em;
+}
+
+#right-side-ul li::after {
+    content: "•";
+    position: absolute;
+    padding-left: 5px;
+    font-size: 2em;
+    top: -50%;
+}
+
