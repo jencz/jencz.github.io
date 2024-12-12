@@ -304,10 +304,19 @@ main {
     gap: 2em;
 }
 
-#main-skills-uls, #secondary-skills-uls {
+#main-skills-uls {
     display: flex;
     flex-direction: row;
-    gap: 2em;
+    min-width: 15em;
+    max-width: 15em;
+}
+
+#secondary-skills-uls {
+    display: flex;
+    flex-direction: row;
+    gap: 1.3em;
+    min-width: 15em;
+    max-width: 15em;
 }
 
 #left-side-ul {
@@ -316,6 +325,8 @@ main {
 
 #right-side-ul {
     list-style: none;
+    display: flex;
+    align-items: flex-end;
 }
 
 #right-side-ul li {
