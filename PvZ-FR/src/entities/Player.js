@@ -9,10 +9,6 @@ import PlayerIdleState from "../states/entity/player/PlayerIdleState.js";
 import Animation from "../../lib/Animation.js";
 import Direction from "../enums/Direction.js";
 import Peashooter from "../objects/Peashooters/Peashooter.js";
-import SnowPeashooter from "../objects/Peashooters/SnowPeashooter.js";
-import GoldPeashooter from "../objects/Peashooters/GoldPeashooter.js";
-import GatlingPeashooter from "../objects/Peashooters/GatlingPeashooter.js";
-import SplitPeashooter from "../objects/Peashooters/SplitPeashooter.js";
 
 export default class Player extends GameEntity {
     static PLAYER_WIDTH = 30
