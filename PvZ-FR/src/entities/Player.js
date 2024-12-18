@@ -8,7 +8,7 @@ import PlayerIdleState from "../states/entity/player/PlayerIdleState.js";
 import Animation from "../../lib/Animation.js";
 import Direction from "../enums/Direction.js";
 import Peashooter from "../objects/Peashooters/Peashooter.js";
-import PlayerWalkingState from "../states/entity/Player/PlayerWalkingState.js";
+import PlayerWalkingState from "../states/entity/player/PlayerWalkingState.js";
 
 export default class Player extends GameEntity {
     static PLAYER_WIDTH = 30
