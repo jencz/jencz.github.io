@@ -1,0 +1,435 @@
+{
+	"images": [
+		{
+			"name": "map-day",
+			"path": "../assets/images/map_day.png",
+			"width": 400,
+			"height": 192
+		},
+		{
+			"name": "map-night",
+			"path": "../assets/images/map_night.png",
+			"width": 400,
+			"height": 192
+		},
+		{
+			"name": "title-screen-background",
+			"path": "../assets/images/title_screen_background.png",
+			"width": 1024,
+			"height": 768
+		},
+		{
+			"name": "zombie-idle",
+			"path": "../assets/images/zombie_idle_sprites.png",
+			"width": 207,
+			"height": 51
+		},
+		{
+			"name": "zombie-walking",
+			"path": "../assets/images/zombie_walking_sprites.png",
+			"width": 342,
+			"height": 53
+		},
+		{
+			"name": "van",
+			"path": "../assets/images/van-sprites.png",
+			"width": 189,
+			"height": 59
+		},
+		{
+			"name": "crater",
+			"path": "../assets/images/crater.png",
+			"width": 102,
+			"height": 73
+		},
+		{
+			"name": "player-idle",
+			"path": "../assets/images/player-sprite.png",
+			"width": 35,
+			"height": 50
+		},
+		{
+			"name": "player-walking",
+			"path": "../assets/images/player-sheet.png",
+			"width": 150,
+			"height": 70
+		},
+		{
+			"name": "peashooters",
+			"path": "../assets/images/peashooter_sprites.png",
+			"width": 90,
+			"height": 51
+		},
+		{
+			"name": "van-health-bar",
+			"path": "../assets/images/van-health-bar.png",
+			"width": 260,
+			"height": 25
+		},
+		{
+			"name": "zombie-eating",
+			"path": "../assets/images/zombie-eating-sprites.png",
+			"width": 307,
+			"height": 51
+		},
+		{
+			"name": "reg-peashooter-bullets",
+			"path": "../assets/images/reg-peashooter-bullet-sprites.png",
+			"width": 43,
+			"height": 34
+		},
+		{
+			"name": "gold-peashooter-bullets",
+			"path": "../assets/images/gold-peashooter-bullet-sprites.png",
+			"width": 43,
+			"height": 34
+		},
+		{
+			"name": "snow-peashooter-bullets",
+			"path": "../assets/images/snow-peashooter-bullet-sprites.png",
+			"width": 43,
+			"height": 34
+		},
+		{
+			"name": "ui-border",
+			"path": "../assets/images/UI/border.png",
+			"width": 400,
+			"height": 48
+		},
+		{
+			"name": "buttons",
+			"path": "../assets/images/UI/ButtonSheet.png",
+			"width": 48,
+			"height": 264
+		},
+		{
+			"name": "currency",
+			"path": "../assets/images/currency-sprites.png",
+			"width": 64,
+			"height": 60
+		},
+		{
+			"name": "zombie-dying",
+			"path": "../assets/images/zombie-dying-sprites.png",
+			"width": 460,
+			"height": 33
+		},
+		{
+			"name": "dancing-zombie-walking",
+			"path": "../assets/images/dancing-zombie-walking-sprites.png",
+			"width": 669,
+			"height": 80
+		},
+		{
+			"name": "dancing-zombie-eating",
+			"path": "../assets/images/dancing-zombie-eating-sprites.png",
+			"width": 531,
+			"height": 80
+		},
+		{
+			"name": "dancing-zombie-dying",
+			"path": "../assets/images/dancing-zombie-dying-sprites.png",
+			"width": 1113,
+			"height": 80
+		},
+		{
+			"name": "walnut",
+			"path": "../assets/images/plants/WalnutSheet.png",
+			"width": 150,
+			"height": 70
+		},
+		{
+			"name": "spikeweed",
+			"path": "../assets/images/plants/SpikeweedSheet.png",
+			"width": 252,
+			"height": 18
+		},
+		{
+			"name": "cherryBomb",
+			"path": "../assets/images/plants/CherrybombSheet.png",
+			"width": 300,
+			"height": 38
+		},
+		{
+			"name": "potatoMine",
+			"path": "../assets/images/plants/PotatoMineSheet.png",
+			"width": 240,
+			"height": 50
+		},
+		{
+			"name": "yeti",
+			"path": "../assets/images/yeti-walking-sprites.png",
+			"width": 354,
+			"height": 80
+		},
+		{
+			"name": "yeti-eating",
+			"path": "../assets/images/yeti-eating-sprites.png",
+			"width": 223,
+			"height": 80
+		},
+		{
+			"name": "yeti-dying",
+			"path": "../assets/images/yeti-dying-sprites.png",
+			"width": 1078,
+			"height": 81
+		},
+		{
+			"name": "explosion",
+			"path": "../assets/images/explosion-sprites.png",
+			"width": 1774,
+			"height": 67
+		},
+		{
+			"name": "gatling-peashooter",
+			"path": "../assets/images/gatling-peashooter-sprites.png",
+			"width": 317,
+			"height": 72
+		},
+		{
+			"name": "yeti-idle",
+			"path": "../assets/images/yeti-idle-sprites.png",
+			"width": 462,
+			"height": 80
+		},
+		{
+			"name": "dancing-idle",
+			"path": "../assets/images/dancing-zombie-idle-sprites.png",
+			"width": 207,
+			"height": 80
+		},
+		{
+			"name": "split-peashooter",
+			"path": "../assets/images/split-peashooter-sprites.png",
+			"width": 114,
+			"height": 17
+		},
+		{
+			"name": "woodboard",
+			"path": "../assets/images/UI/WoodBoard.png",
+			"width": 50,
+			"height": 30
+		},
+		{
+			"name": "mailbox",
+			"path": "../assets/images/UI/mailbox.png",
+			"width": 80,
+			"height": 50
+		},
+		{
+			"name": "zombie-hit-walking",
+			"path": "../assets/images/zombie_hit_walking_sprites.png",
+			"width": 342,
+			"height": 53
+		},
+		{
+			"name": "dancing-zombie-hit-walking",
+			"path": "../assets/images/dancing-zombie-hit-walking-sprites.png",
+			"width": 669,
+			"height": 80
+		},
+		{
+			"name": "yeti-hit-walking",
+			"path": "../assets/images/yeti-hit-walking-sprites.png",
+			"width": 354,
+			"height": 80
+		},
+		{
+			"name": "zombie-hit-eating",
+			"path": "../assets/images/zombie-hit-eating-sprites.png",
+			"width": 307,
+			"height": 51
+		},
+		{
+			"name": "dancing-zombie-hit-eating",
+			"path": "../assets/images/dancing-zombie-hit-eating-sprites.png",
+			"width": 531,
+			"height": 80
+		},
+		{
+			"name": "yeti-hit-eating",
+			"path": "../assets/images/yeti-hit-eating-sprites.png",
+			"width": 223,
+			"height": 80
+		},
+		{
+			"name": "leaderboard-background",
+			"path": "../assets/images/leaderboard_background.png",
+			"width": 1024,
+			"height": 768
+		},
+		{
+			"name": "enter-username",
+			"path": "../assets/images/enter-username.png",
+			"width": 257,
+			"height": 193
+		},
+		{
+			"name": "pvz-note",
+			"path": "../assets/images/pvz-note.jpg",
+			"width": 512,
+			"height": 304
+		}
+	],
+	"fonts": [
+		{
+			"name": "SamdanEvil",
+			"path": "../assets/fonts/SamdanEvil.ttf"
+		}
+	],
+	"sounds": [
+		{
+			"name": "title-screen-music",
+			"path": "../assets/sounds/Music/title.mp3",
+			"size": 1,
+			"volume": 0.15,
+			"loop": true
+		},
+		{
+			"name": "day1",
+			"path": "../assets/sounds/Music/day1.mp3",
+			"size": 1,
+			"volume": 0.15,
+			"loop": true
+		},
+		{
+			"name": "day2",
+			"path": "../assets/sounds/Music/day2.mp3",
+			"size": 1,
+			"volume": 0.15,
+			"loop": true
+		},
+		{
+			"name": "day3",
+			"path": "../assets/sounds/Music/day3.mp3",
+			"size": 1,
+			"volume": 0.15,
+			"loop": true
+		},
+		{
+			"name": "night1",
+			"path": "../assets/sounds/Music/night1.mp3",
+			"size": 1,
+			"volume": 0.15,
+			"loop": true
+		},
+		{
+			"name": "night2",
+			"path": "../assets/sounds/Music/night2.mp3",
+			"size": 1,
+			"volume": 0.15,
+			"loop": true
+		},
+		{
+			"name": "zombie-eating",
+			"path": "../assets/sounds/SFX/Play/zombie-eating-sound.mp3",
+			"size": 10,
+			"volume": 0.15
+		},
+		{
+			"name": "wave-win",
+			"path": "../assets/sounds/SFX/Play/wave-win-music.mp3",
+			"size": 1,
+			"volume": 0.1
+		},
+		{
+			"name": "wave-start",
+			"path": "../assets/sounds/SFX/Play/wave-start-sound.mp3",
+			"size": 1,
+			"volume": 0.15
+		},
+		{
+			"name": "coin",
+			"path": "../assets/sounds/SFX/Play/coin-sound.mp3",
+			"size": 3,
+			"volume": 0.1
+		},
+		{
+			"name": "coin-drop",
+			"path": "../assets/sounds/SFX/Play/coin-drop-sound.mp3",
+			"size": 3,
+			"volume": 0.25
+		},
+		{
+			"name": "explosion",
+			"path": "../assets/sounds/SFX/Play/explosion-sound.mp3",
+			"size": 3,
+			"volume": 0.25
+		},
+		{
+			"name": "planting",
+			"path": "../assets/sounds/SFX/Play/planting-sound.mp3",
+			"size": 3,
+			"volume": 0.1
+		},
+		{
+			"name": "click",
+			"path": "../assets/sounds/SFX/UI/clickySound.mp3",
+			"size": 5,
+			"volume": 0.1
+		},
+		{
+			"name": "blip",
+			"path": "../assets/sounds/SFX/UI/blipSelect.wav",
+			"size": 5,
+			"volume": 0.1
+		},
+		{
+			"name": "gameOver",
+			"path": "../assets/sounds/SFX/Play/blipSelect.wav",
+			"size": 1,
+			"volume": 0.1
+		},
+		{
+			"name": "zombieFalling",
+			"path": "../assets/sounds/SFX/Play/zombieFalling.mp3",
+			"size": 5,
+			"volume": 0.1
+		},
+		{
+			"name": "shoot",
+			"path": "../assets/sounds/SFX/Play/laserShoot.mp3",
+			"size": 15,
+			"volume": 0.1
+		}
+		,
+		{
+			"name": "siren",
+			"path": "../assets/sounds/SFX/Play/siren.mp3",
+			"size": 5,
+			"volume": 0.1
+		}
+		,
+		{
+			"name": "CoinDrop-L",
+			"path": "../assets/sounds/SFX/Play/coindrop.mp3",
+			"size": 5,
+			"volume": 0.25
+		}
+		,
+		{
+			"name": "CoinPickUp-L-1",
+			"path": "../assets/sounds/SFX/Play/deposit1.mp3",
+			"size": 2,
+			"volume": 0.25
+		},
+		{
+			"name": "CoinPickUp-L-2",
+			"path": "../assets/sounds/SFX/Play/deposit2.mp3",
+			"size": 2,
+			"volume": 0.25
+		},
+		{
+			"name": "CoinPickUp-L-3",
+			"path": "../assets/sounds/SFX/Play/deposit3.mp3",
+			"size": 2,
+			"volume": 0.25
+		},
+		{
+			"name": "splat",
+			"path": "../assets/sounds/SFX/Play/SFXsplat.mp3",
+			"size": 15,
+			"volume": 0.05
+		}
+	]
+}
