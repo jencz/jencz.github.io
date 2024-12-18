@@ -49,7 +49,6 @@ export default class Player extends GameEntity {
         this.speed = 150;
         this.speedV = 125;
 
-        // Player left or right
         this.facing = Direction.Right
 
         this.accountBalance = 0;
