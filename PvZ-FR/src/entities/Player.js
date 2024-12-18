@@ -4,7 +4,7 @@ import { CANVAS_HEIGHT, CANVAS_WIDTH, context, DEBUG, images } from "../globals.
 import ImageName from "../enums/ImageName.js";
 import StateMachine from "../../lib/StateMachine.js";
 import PlayerStateName from "../enums/PlayerStateName.js";
-import PlayerWalkingState from "../states/entity/Player/PlayerWalkingState.js";
+import PlayerWalkingState from "../../src/states/entity/player/PlayerWalkingState.js";
 import PlayerIdleState from "../states/entity/player/PlayerIdleState.js";
 import Animation from "../../lib/Animation.js";
 import Direction from "../enums/Direction.js";
