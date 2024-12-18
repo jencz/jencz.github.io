@@ -54,7 +54,7 @@ export default class Level {
         this.waveInProgress = true
         this.explosionPushed = false
 
-        this.gracePeriodTimer = 10
+        this.gracePeriodTimer = 11
         this.dayNightTransitionTriggered = false;
         this.transitionComplete = true;
         this.timeTransitionAlphaObject = { alpha: 1 };
@@ -213,7 +213,7 @@ export default class Level {
 
             this.waveInProgress = false
             this.gracePeriodTimer -= dt
-            if (this.gracePeriodTimer <= 0) {
+            if (this.gracePeriodTimer <= 1) {
                 this.wave++
                 if (this.wave % 3 === 0) {
                     this.waveAmount += 2
