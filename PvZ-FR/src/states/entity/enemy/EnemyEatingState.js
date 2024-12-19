@@ -26,6 +26,7 @@ export default class EnemyEatingState extends State {
 	}
 
 	enter() {
+		console.log('has entered eating')
 		this.enemy.speed = 0
 		this.enemy.sprites = this.enemy.eatingSprites;
 		this.enemy.currentAnimation = this.animation;
@@ -43,8 +44,9 @@ export default class EnemyEatingState extends State {
 			this.damageVan(dt);
 		}
 
-		else if (this.enemy.health <= 0) {
+		else if (this.enemy.health <= 0 && !this.enemy.hasDied) {
 			this.enemy.changeState(EnemyStateName.Dying)
+			console.log('died')
 		}	
 	}
 

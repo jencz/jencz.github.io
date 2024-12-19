@@ -48,13 +48,11 @@ export default class PotatoMine extends Plant {
             let zombies = this.level.checkZombiesCollision(this)
             if (zombies.length !== 0)
             {
-                zombies.forEach(zombie => {
-                    zombie.changeState(EnemyStateName.Dying)
-                })
-                this.explode()
+                if (!this.hasExploded) {
+                   this.explode() 
+                }
+                
             }
-
-            
         }
     }
 

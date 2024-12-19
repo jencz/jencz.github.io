@@ -100,13 +100,7 @@ export default class Level {
             plant.update(dt)
         })
 
-        this.enemies.forEach(enemy => {
-            enemy.update(dt)
-
-            this.checkPlantAndEnemyCollision()
-
-            this.checkEnemyAndVanCollision(enemy)
-        })
+        
 
         if (this.van.didCollideWithEntity(this.player.hitbox)) {
             this.van.onCollision(this.player)
@@ -125,6 +119,14 @@ export default class Level {
         this.bottomBarMenu.update(dt);
         this.exitButton.update(dt)
         this.currency.forEach(currency => currency.update(dt))
+
+        this.enemies.forEach(enemy => {
+            enemy.update(dt)
+
+            this.checkPlantAndEnemyCollision()
+
+            this.checkEnemyAndVanCollision(enemy)
+        })
     }
 
     render() {
@@ -136,7 +138,9 @@ export default class Level {
 
         this.bullets.forEach(bullet => bullet.render())
 
-        this.cherryExplosions.forEach(explosion => explosion.render())
+        this.cherryExplosions.forEach(explosion => {
+            explosion.render()
+        })
 
 
         this.explosions.forEach(explosion => explosion.render())
@@ -400,7 +404,10 @@ export default class Level {
             this.enemies.forEach(eatingEnemy => {
                 if (eatingEnemy.didCollideWithEntity(plant.hitbox)) {
                     if (plant instanceof Walnut) {
-                        eatingEnemy.changeState(EnemyStateName.Eating);
+                        if (!eatingEnemy.isDying) {
+                            eatingEnemy.changeState(EnemyStateName.Eating); 
+                        }
+                        
 
                         const DAMAGE_INTERVAL = 1000
 
@@ -414,7 +421,9 @@ export default class Level {
 
                         if (plant.health <= 0) {
                             plant.isDead = true
-                            eatingEnemy.changeState(EnemyStateName.Walking);
+                            if (!eatingEnemy.isDying) {
+                                eatingEnemy.changeState(EnemyStateName.Walking);
+                            }
                             eatingEnemy.speed = eatingEnemy.baseSpeed;
                         }
                     }

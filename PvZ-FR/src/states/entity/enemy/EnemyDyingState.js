@@ -33,6 +33,8 @@ export default class EnemyDyingState extends State {
 			this.enemy.dropCurrency()
 		}
 
+		console.log('has entered dying')
+
 		this.enemy.isDying = true
 		this.enemy.speed = 0
 		this.enemy.isInvincible = true
@@ -41,8 +43,6 @@ export default class EnemyDyingState extends State {
 	}
 
 	update(dt) {
-		this.move(dt)
-
 		if (this.enemy.currentAnimation.isHalfwayDone() && !this.soundHasPlayed)
 		{
 			sounds.play(SoundName.ZombieFalling)
@@ -51,15 +51,6 @@ export default class EnemyDyingState extends State {
 
 		if (this.enemy.currentAnimation.isDone()) {
 			this.enemy.hasDied = true
-		}
-	}
-
-	move(dt) {
-		if (this.enemy.spawnDirection === Direction.Right) {
-			this.enemy.position.x -= (this.enemy.speed / 2) * dt
-		}
-		else {
-			this.enemy.position.x += (this.enemy.speed / 2) * dt
 		}
 	}
 }

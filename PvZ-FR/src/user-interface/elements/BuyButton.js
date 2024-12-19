@@ -60,7 +60,7 @@ export default class BuyButton extends ImageButton {
         }
 
         // To make testing faster, price is set to zero so buttons are never disabled
-        //this.price = 0
+        this.price = 0
         this.checkEnable()
     }
 

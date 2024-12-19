@@ -47,7 +47,9 @@ export default class PlantExplosion extends GameEntity {
                 this.position, 
                 this.range
             );
-            zombies.forEach(zombie => zombie.changeState(EnemyStateName.Dying));
+            zombies.forEach(zombie => {
+                zombie.changeState(EnemyStateName.Dying)
+            });
 
             this.remove();
         }
